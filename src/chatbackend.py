@@ -67,7 +67,7 @@ def query_postgresql(query):
             host="localhost",
             database="ai_agent",
             user="postgres",
-            password="Trakinas1!",
+            password="postgres",
             port="5432",
         )
         cursor = connection.cursor()
