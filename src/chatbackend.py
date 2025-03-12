@@ -65,9 +65,9 @@ def query_postgresql(query):
     try:
         connection = psycopg2.connect(
             host="localhost",
-            database="ai_agent",
+            database="ecommerce_ai_analyst",
             user="postgres",
-            password="postgres",
+            password="Trakinas1!",
             port="5432",
         )
         cursor = connection.cursor()
@@ -98,7 +98,10 @@ def get_sql_from_question_bedrock(question, all_domain_descriptions, memory):
     for domain, details in all_domain_descriptions.items():
         schema_table = f"Schema: {details['schema']}, Tabela: {details['table']}"
         columns_description = "\n".join(
-            [f"{col}: {desc}" for col, desc in details["columns"].items()]
+            [
+                f"{col}: {info['description']} (Tipo: {info['data_type']})"
+                for col, info in details["columns"].items()
+            ]
         )
         prompt += f"\nDomínio {domain}:\n{schema_table}\n{columns_description}\n"
 
