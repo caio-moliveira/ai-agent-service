@@ -1,0 +1,13 @@
+boto3
+botocore
+langchain
+langchain-aws
+langchain-community
+langchain-core
+langchain-text-splitters
+psycopg2
+psycopg2-binary
+python-dotenv
+SQLAlchemy
+streamlit
+tabulate

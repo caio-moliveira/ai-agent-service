@@ -1,0 +1,5 @@
+crewai
+langchain_groq
+langchain_openai
+crewai[tools]
+streamlit
