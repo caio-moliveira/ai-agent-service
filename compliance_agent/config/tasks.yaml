@@ -1,0 +1,14 @@
+answer_compliance_question:
+  description: >
+    Answer compliance-related questions based on ANVISA, BPF, and GMP regulations.
+    Provide the most relevant section from the regulations and summarize it clearly.
+
+    **Question:**
+    {question}
+
+  expected_output: >
+    A precise and well-structured response based on the most relevant compliance regulations.
+    If applicable, cite the specific section from the BPF, RDC 301, or RDC 658.
+    
+  agent: pharma_compliance_expert
+
