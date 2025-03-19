@@ -1,0 +1,5 @@
+fetch_crypto_price:
+  description: >
+    Fetch the latest price of {crypto} in {currency} and provide a short summary.
+  expected_output: >
+    A message displaying the latest {crypto} price in {currency}.

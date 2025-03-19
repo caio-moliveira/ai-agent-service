@@ -1,0 +1,1 @@
+The latest price of BTC in USD is 84441.935 USD.
