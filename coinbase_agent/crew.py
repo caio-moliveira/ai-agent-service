@@ -5,6 +5,7 @@ from crewai import Agent, Task, Crew
 from tools.get_crypto_price import GetCryptoPriceTool
 from dotenv import load_dotenv
 
+
 # Load environment variables
 load_dotenv()
 
@@ -65,4 +66,5 @@ if st.button("Get Price"):
 
         # Display Result
         st.success("✅ Latest Price Retrieved!")
-        st.write(result)
+        st.write(result.raw)
+        st.write(result.token_usage.total_tokens)

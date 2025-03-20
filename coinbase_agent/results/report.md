@@ -1,1 +1,1 @@
-The latest price of BTC in USD is 84441.935 USD.
+The latest price of BTC in BRL is 481851.84 BRL.
