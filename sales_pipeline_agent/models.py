@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import Dict, Optional, List, Set, Tuple
+from typing import Optional, List
 
 
 class LeadPersonalInfo(BaseModel):

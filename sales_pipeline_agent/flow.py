@@ -1,4 +1,4 @@
-import asyncio
+import textwrap
 from crewai import Flow
 from crewai.flow.flow import listen, start
 import logging
@@ -56,3 +56,7 @@ flow = SalesPipeline()
 if __name__ == "__main__":
     emails = flow.kickoff()
     logging.info(f"Final Emails Sent: {emails}")
+
+    result_text = emails[0].raw
+    wrapped_text = textwrap.fill(result_text, width=80)
+    print(wrapped_text)
