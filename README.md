@@ -14,7 +14,6 @@ Each folder inside this repository is a **self-contained agent project**, with i
 | `coinbase_agent`        | Automates tasks related to Coinbase, such as retrieving cryptocurrency data or executing flows. |
 | `compliance_agent`      | Focuses on regulatory and compliance analysis, helping businesses stay aligned with rules.    |
 | `data_analysis_agent`   | Assists with data exploration, generating insights from raw datasets autonomously.            |
-| `db`                    | Shared database models and utilities for agent projects.                                     |
 | `pdf_knowledge_agent`   | Extracts and searches information from PDF documents efficiently.                            |
 | `query_database_agent`  | Automates database queries, fetching or analyzing data without manual SQL writing.             |
 | `researcher_writer_agent` | Gathers information from multiple sources and generates well-structured written reports.    |
@@ -27,8 +26,8 @@ Each folder inside this repository is a **self-contained agent project**, with i
 
 I have walkthrough videos for some of these projects! Check them out:
 
-- **Compliance Agent**: [Watch on YouTube](#) *(Link to be updated)*
-- **Travel Agency Agent**: [Watch on YouTube](#) *(Link to be updated)*
+- **Compliance Agent**: [Watch on YouTube](https://youtu.be/RHSVEj8CCqI?si=DJzO1W2sIBlnBcT0) *(Link to be updated)*
+- **Travel Agency Agent**: [Watch on YouTube](https://youtu.be/qz9gD47NeQY?si=ZgIgVqbDOY2J6dJa) *(Link to be updated)*
 
 ---
 
