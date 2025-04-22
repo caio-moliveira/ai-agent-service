@@ -26,8 +26,8 @@ Each folder inside this repository is a **self-contained agent project**, with i
 
 I have walkthrough videos for some of these projects! Check them out:
 
-- **Compliance Agent**: [Watch on YouTube](https://youtu.be/RHSVEj8CCqI?si=DJzO1W2sIBlnBcT0) *(Link to be updated)*
-- **Travel Agency Agent**: [Watch on YouTube](https://youtu.be/qz9gD47NeQY?si=ZgIgVqbDOY2J6dJa) *(Link to be updated)*
+- **Compliance Agent**: [Watch on YouTube](https://youtu.be/RHSVEj8CCqI?si=DJzO1W2sIBlnBcT0) 
+- **Travel Agency Agent**: [Watch on YouTube](https://youtu.be/qz9gD47NeQY?si=ZgIgVqbDOY2J6dJa) 
 
 ---
 
@@ -37,21 +37,16 @@ Each agent is a separate project. To run any agent:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+    git clone https://github.com/caio-moliveira/REPO.git
     cd YOUR-REPO
     ```
 
-2. Enter the agent folder you want:
-    ```bash
-    cd agent_name_here
-    ```
-
-3. Install the dependencies:
+2. Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Run the agent:
+3. Run the agent:
     ```bash
     python main.py
     ```
@@ -88,7 +83,7 @@ Feel free to open Issues or PRs if you want to add improvements, fixes, or new a
 
 If you have any questions, feel free to reach out via:
 
-- LinkedIn: [Your LinkedIn](#)
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/caiomoliveira/)
 - GitHub Issues
 - YouTube Comments (on the walkthrough videos)
 
